@@ -1,0 +1,114 @@
+
+.modal{
+    height: 100vh;
+    width: 100vw;
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: .5s;
+    pointer-events: none;
+ 
+}
+
+
+.modal.active{
+pointer-events: all;
+    
+    border: 1px solid rgba(76, 76, 255, 0.2);
+    background-color: #000000;
+    opacity: 60%;
+    
+}
+
+.modal__content{
+    padding: 40px 40px 60px;
+    border-radius: 40%;
+    background: rgb(28, 28, 33);
+   width: 50vw;
+    transform: scale(0.5); 
+    opacity: 1;
+    
+}
+
+.modal__content .active{    
+    transform: scale(1);
+    opacity: 1;
+}
+
+.close{
+   
+    text-align: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*/////////////////OrderDetails////////////////////////*/
+
+
+ .section{
+    text-align: center;
+    align-items: center;
+   
+   
+    
+}
+
+
+
+.vectorSecond{
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ margin: 0 auto;
+width: 107px;
+height: 100px;
+
+background: radial-gradient(53.15% 70.71% at 50% 50%,rgba(128, 26, 179, 0),rgba(76, 76, 255, 0.25) 100%)
+}
+
+.vectorFirst{
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+ margin: 0 auto;
+
+width: 68px;
+height: 65.33px;
+
+background: radial-gradient(53.08% 70.71% at 50% 50%,rgba(128, 26, 179, 0),rgba(76, 76, 255, 0.13) 100%)
+} 
+ 
+
+
+
+
+/*///////IngridientDetails///////////*/
+
+
+
+.details__inner{
+    text-align: center;
+    align-items: center;
+}
